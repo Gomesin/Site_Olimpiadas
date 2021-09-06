@@ -1,0 +1,68 @@
+footer {
+  text-align: center;
+  background-color: #28a745;
+  padding: 15px;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: yellow;
+}
+
+p {
+  font-size: 18px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  margin-bottom: 1rem;
+}
+
+.carousel-item:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 13, 13, 0.1) 0%,
+    rgba(5, 0, 0, 0.9) 100%
+  );
+}
+
+.carousel-caption {
+  bottom: 10rem;
+  z-index: 18;
+}
+
+.img-top {
+  object-position: top;
+}
+
+.container-medalhistas {
+  margin: 25px;
+  padding: 10px;
+}
+
+.escrito {
+  text-align: center;
+  padding: 75px;
+}
